@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<meta charset="UTF-8"> 
+<html>
+ <head>
+  <title>Watch Kirby get his groove on</title>
+  <script type="text/javascript">
+  /* Think of this as a playlist, except one song is randomly selected. */
+    var mr_array = new Array();
+    mr_array[0] = "stayin-alive-loop.ogg";
+    mr_array[1] = "Aerosmith - Pink.ogg";
+    mr_array[2] = "ABBA - Dancing Queen.ogg";
+    mr_array[3] = "Scatman John - Scatman.ogg";
+    mr_array[4] = "Marvin Gaye - Sexual healing.ogg";
+    mr_array[5] = "Queen - Another One Bites the Dust.ogg";
+    mr_array[6] = "David Bowie - Lets Dance.ogg";
+    mr_array[7] = "Kool & the Gang - Something Special - 05 - Get Down On It.ogg";
+    length_of_mr_array = mr_array.length;
+    function PlayRandomSong() {
+       var a = Math.random()*length_of_mr_array;
+       a = Math.floor(a);
+       le_audio = document.getElementById('mr_audio');
+       le_audio.src = mr_array[a];
+     }
+  </script>
+ </head>
+ <body bgcolor="pink" onLoad="PlayRandomSong()">
+  <audio id="mr_audio" src="stayin-alive-loop.ogg" type="music/ogg" autoplay="autoplay" loop="loop">
+    Looks like your browser doesn't support the HTML5 Audio tag.  Bummer.
+  </audio>
+  <p style="line-height: 50%;">
+   <center>
+     <img src="poyo_intensifies.gif" alt="Man, that little guy can strut his stuff." width="1400" />
+   </center>
+  </p>
+ </body>
+</html>
