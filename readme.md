@@ -12,7 +12,7 @@ due to copyright reasons, you can find a copy of it [here](http://imgur.com/a/5w
 In the file, `index.html`, locate the array called `mr_array` and put in the path to your file as an element in the array.  The
 code should do the rest.
 
-Code is copyright (C) 2016 Jason Anderson, while the copyright for Kirby goes to Nintendo, and to a lesser extent HAL Laboratories.
+Code is copyright (C) 2016 Jason Anderson under the MIT License, while the copyright for Kirby goes to Nintendo, and to a lesser extent HAL Laboratories.
 
 Sample songs used are attributed to the following:
 
