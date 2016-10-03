@@ -7,14 +7,9 @@
   /* Think of this as a playlist, except one song is randomly selected. */
     var mr_array = new Array();
 /*
-    mr_array[0] = "stayin-alive-loop.ogg";
-    mr_array[1] = "Aerosmith - Pink.ogg";
-    mr_array[2] = "ABBA - Dancing Queen.ogg";
-    mr_array[3] = "Scatman John - Scatman.ogg";
-    mr_array[4] = "Marvin Gaye - Sexual healing.ogg";
-    mr_array[5] = "Queen - Another One Bites the Dust.ogg";
-    mr_array[6] = "David Bowie - Lets Dance.ogg";
-    mr_array[7] = "Kool & the Gang - Something Special - 05 - Get Down On It.ogg";
+    To add your songs, merely add in another element to
+    the array below.  Each element should be set to the
+    location of the song.
 */
     mr_array[0] = "songs/Jahzzar_-_03_-_Fireworks.mp3"
     mr_array[1] = "songs/Broke_For_Free_-_09_-_Drop_of_Water_In_the_Ocean.mp3"
@@ -30,7 +25,7 @@
   </script>
  </head>
  <body bgcolor="pink" onLoad="PlayRandomSong()">
-  <audio id="mr_audio" src="stayin-alive-loop.ogg" type="music/ogg" autoplay="autoplay" loop="loop">
+  <audio id="mr_audio" src="songs/Jahzzar_-_03_-_Fireworks.mp3" type="music/ogg" autoplay="autoplay" loop="loop">
     Looks like your browser doesn't support the HTML5 Audio tag.  Bummer.
   </audio>
   <p style="line-height: 50%;">
